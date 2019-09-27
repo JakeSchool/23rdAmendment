@@ -1,0 +1,75 @@
+.names {
+text-align: center;
+padding: 10px;
+font-size: 20;
+}
+
+.title {
+text-align: center;
+padding: 10px;
+font-size: 35;
+}
+
+.titleBox{
+display: inline-block;
+background-color: #3188BB;
+margin: 25px;
+text-align: center;
+width: inherit;
+border-style: double;
+}
+
+.big{
+font-size: 30;
+text-align: center;
+}
+
+.big:active {
+text-align: left;
+}
+
+.smallDiv {
+border-style: solid;
+z-index: 2;
+background-color: #DDDDDD;
+}
+.small{
+font-size: 14;
+width: 33vw;
+padding: 5px;
+}
+
+.smallItem {
+  font-size: 14;
+  width: 31vw;
+  padding: 5px;
+}
+.click {
+text-align: center;
+}
+
+.click:hover .smallDiv {
+display: block;
+}
+
+.item {
+background-color: #3188BB;
+border-style: double;
+margin: 25px;
+width: 35vw;
+height: 50vh;
+}
+.info{
+padding: 25px;
+display: flex;
+justify-content: space-around;
+margin: 25px;
+flex-wrap: wrap;
+
+}
+body {
+font-family: "Arial";
+background-color: #AAAAAA;
+display: block;
+width: 100vw
+}
